@@ -68,17 +68,17 @@ var geoJson2Wkt = function (geojson) {
     return WKT.stringify(geojson);
 }
 
-/*var wkt2WebMerc = function (wkt) {
+var nyspWkt2WebMercGeoJson = function (wkt) {
     return convertNYSP2WebMerc(wkt2GeoJson(wkt));
 }
 
-var geoJson2NYSP = function (geojson) {
+var webMercGeoJson2NyspWkt = function (geojson) {
     return geoJson2Wkt(convertWebMerc2NYSP(geojson));
-}*/
+}
 
 exports.convertNYSP2WebMerc = convertNYSP2WebMerc;
 exports.convertWebMerc2NYSP = convertWebMerc2NYSP;
 exports.wkt2GeoJson = wkt2GeoJson;
 exports.geoJson2Wkt = geoJson2Wkt;
-/*exports.wkt2WebMerc = wkt2WebMerc;
-exports.geoJson2NYSP = geoJson2NYSP;*/
+exports.nyspWkt2WebMercGeoJson = nyspWkt2WebMercGeoJson;
+exports.webMercGeoJson2NyspWkt = webMercGeoJson2NyspWkt;
