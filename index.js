@@ -6,8 +6,9 @@ var nysp = "+proj=lcc +lat_1=41.03333333333333 +lat_2=40.66666666666666 +lat_0=4
 var webMerc = "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs";
 
 var convertNYSP2WebMerc = function (geojson) {
+    var newGeoJson;
     geojson = geojson.geometry || geojson;
-    var newGeoJson = _.omit(geojson, 'coordinates');
+    newGeoJson = _.omit(geojson, 'coordinates');
     newGeoJson.coordinates = [];
     switch (geojson.type.toLowerCase()) {
         case "polygon":
@@ -32,8 +33,9 @@ var convertNYSP2WebMerc = function (geojson) {
 }
 
 var convertWebMerc2NYSP = function (geojson) {
+    var newGeoJson;
     geojson = geojson.geometry || geojson;
-    var newGeoJson = _.omit(geojson, 'coordinates');
+    newGeoJson = _.omit(geojson, 'coordinates');
     newGeoJson.coordinates = [];
     switch (geojson.type.toLowerCase()) {
         case "polygon":
