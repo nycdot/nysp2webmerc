@@ -1,14 +1,14 @@
 {
   "name": "nysp2webmerc",
   "version": "0.0.3",
-  "description": "module to convert NY State Plane Long Island (NYC) projection to Web Mercator and convert from WKT to GeoJson",
+  "description": "A simple module to convert NY State Plane Long Island (NYC) projection to Web Mercator and convert from WKT to GeoJson",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chadwilcomb/nysp2WebMerc"
+    "url": "https://github.com/chadwilcomb/nysp2webmerc"
   },
   "keywords": [
     "geojson",
@@ -19,9 +19,9 @@
   "author": "Chad Wilcomb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chadwilcomb/nysp2WebMerc/issues"
+    "url": "https://github.com/chadwilcomb/nysp2webmerc/issues"
   },
-  "homepage": "https://github.com/chadwilcomb/nysp2WebMerc",
+  "homepage": "https://github.com/chadwilcomb/nysp2webmerc",
   "dependencies": {
     "proj4": "^2.3.3",
     "underscore": "^1.7.0",

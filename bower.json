@@ -1,8 +1,8 @@
 {
-  "name": "nysp2WebMerc",
+  "name": "nysp2webmerc",
   "main": "index.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/chadwilcomb/nysp2WebMerc",
+  "homepage": "https://github.com/chadwilcomb/nysp2webmerc",
   "authors": [
     "chadwilcomb <chadwilcomb@gmail.com>"
   ],
