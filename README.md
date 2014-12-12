@@ -1,7 +1,7 @@
 nysp2WebMerc
 ============
 
-A simple module to convert NY State Plane Long Island (NYC) projection to Web Mercator projection and convert from WKT to GeoJson.
+A simple module to reproject from NY State Plane Long Island (NYC) projection to Web Mercator projection and vice-versa, as well as convert from WKT to GeoJson.
 
 ##Usage
 Recommended to use with Node or Browserify requires to access the wrapper functions.
