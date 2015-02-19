@@ -28,6 +28,9 @@ var convertNYSP2WebMerc = function (geojson) {
                 newGeoJson.coordinates.push(newPt);
             });
             break;
+        case 'point':
+            newGeoJson.coordinates = proj4(nysp).inverse([geojson.coordinates[0], geojson.coordinates[1]]);
+            break;
     }
     return newGeoJson;
 }
@@ -54,6 +57,9 @@ var convertWebMerc2NYSP = function (geojson) {
                 var newPt = proj4(nysp, [coord[0], coord[1]]);
                 newGeoJson.coordinates.push(newPt);
             });
+            break;
+        case 'point':
+            newGeoJson.coordinates = proj4(nysp, [geojson.coordinates[0], geojson.coordinates[1]]);
             break;
     }
     return newGeoJson;
