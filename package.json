@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chadwilcomb/nysp2webmerc.git"
+    "url": "https://github.com/nycdot/nysp2webmerc.git"
   },
   "keywords": [
     "geojson",
@@ -22,9 +22,9 @@
   "author": "Chad Wilcomb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chadwilcomb/nysp2webmerc/issues"
+    "url": "https://github.com/nycdot/nysp2webmerc/issues"
   },
-  "homepage": "https://github.com/chadwilcomb/nysp2webmerc",
+  "homepage": "https://github.com/nycdot/nysp2webmerc",
   "dependencies": {
     "proj4": "^2.3.3",
     "underscore": "^1.7.0",
